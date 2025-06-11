@@ -7,9 +7,9 @@
 
 ## ✅ 1. PROJECT SETUP
 
-* [ ] Initialize Git repo
-* [ ] Set up root folder with `client/` and `server/`
-* [ ] Create `.env` files for dev/prod
+* [x] Initialize Git repo
+* [x] Set up root folder with `client/` and `server/`
+* [x] Create `.env` files for dev/prod
 
 ---
 
