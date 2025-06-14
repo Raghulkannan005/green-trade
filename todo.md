@@ -1,17 +1,4 @@
 
----
-
-### 📁 `TODO.md` – GreenTrade (MERN Stack)
-
----
-
-## ✅ 1. PROJECT SETUP
-
-* [x] Initialize Git repo
-* [x] Set up root folder with `client/` and `server/`
-* [x] Create `.env` files for dev/prod
-
----
 
 ## 🖥️ 2. CLIENT (React + Tailwind)
 
@@ -30,31 +17,12 @@
   │   ├── context/
   │   └── App.jsx, main.jsx
   ```
-
----
-
-## 🌐 3. SERVER (Node.js + Express)
-
-* [ ] Init `npm` in `server/`
-* [ ] Install: `express`, `mongoose`, `cors`, `dotenv`, `bcrypt`, `jsonwebtoken`, `morgan`, `multer`, `cloudinary`, `cookie-parser`
-* [ ] Folder structure:
-
-  ```
-  server/
-  ├── controllers/
-  ├── models/
-  ├── routes/
-  ├── middleware/
-  ├── utils/
-  └── server.js
-  ```
-
 ---
 
 ## 🧑‍🌾 4. AUTH MODULE (Farmer + Buyer Roles)
 
 * [ ] Register & Login (JWT + cookies)
-* [ ] Password hashing (bcrypt)
+* [X] Password hashing (bcrypt)
 * [ ] Middleware: `auth`, `roleCheck`
 * [ ] Auth Context in React (store user)
 * [ ] Logout, token expiry, refresh handling (optional)
@@ -64,7 +32,6 @@
 ## 📦 5. PRODUCT MODULE (for Farmers/Artisans)
 
 * [ ] Add product (image, title, price, description, category, available stock)
-* [ ] Cloudinary upload support (via Multer)
 * [ ] Get all products (public)
 * [ ] Get by category
 * [ ] Get by seller
@@ -78,7 +45,6 @@
 * [ ] Filter by category, price range, search
 * [ ] View seller contact info
 * [ ] Bookmark products (wishlist)
-* [ ] Optional cart system
 
 ---
 

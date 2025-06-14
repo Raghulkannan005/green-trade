@@ -15,7 +15,7 @@ const productSchema = new Schema({
         required : true,
         default : 0
     },
-    shopName : {
+    shop : {
         type : Schema.Types.ObjectId,
         ref : 'shop',
         required : true
